@@ -39,9 +39,11 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'deface'
+
 gem 'spree_core', :branch => '2-3-stable'
 gem 'spree', '2.3.1'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-3-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 #extencion teste
+gem 'spree_bootstrap_frontend', github: '200Creative/spree_bootstrap_frontend', :branch => '2-3-stable'
 gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-2-stable'
